@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Home | Nu Jange Ci</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style></style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<body>
+
+<!-- page header -->
+<div class="w3-panel w3-center w3-light-gray " style="padding:28px 16px">
+	<div class = "w3-row">
+	<div class="w3-dropdown-click w3-right">
+	    <button onclick="myFunction()" class="w3-button w3-teal"><p class = "w3-small">EN/FR</p></button>
+	    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+	      <a href="#" class="w3-bar-item w3-button">English</a>
+	      <a href="#" class="w3-bar-item w3-button">Français</a>
+	    </div>
+  	</div>
+  	<div class = "w3-container w3-left">
+  		<img src = "images/njclogo.jpg" class = "w3-image w3-left" width="70" height="70">
+  	</div>
+  	</div>
+
+ 	<h class="w3-jumbo ">
+		 <strong>
+ 		<font color = "#ff161b">Nu</font>
+ 		<font color = "#ffde59">Jange</font> 
+ 		<font color = "#7ed957">Ci</font></h></strong>
+		 <p><font color = "#ff161b">We</font>
+ 		<font color = "#ffde59">Learn</font> 
+ 		<font color = "#7ed957">From It</font></h></strong></p>
+ 	<p>Empowering Senegalese Youth through experiential learning, civic engagement, and in-country travel</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<!-- page navigation -->
+<div class = "w3-panel w3-center w3-teal" style="padding:8px 16px">
+	<div class="w3-dropdown-hover">
+			<a href = "home.html" class = "w3-bar-item w3-button w3-teal">Home</a>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<a href="vision.html" class = "w3-bar-item w3-button">Vision</a>
+		</div>
+	</div>
+	<div class="w3-dropdown-hover">
+		<a href = "whatwedo.html" class = "w3-bar-item w3-button w3-teal">Program</a>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<a href="whatwedo.html" class = "w3-bar-item w3-button">What We Do</a>
+			<a href="meetthescholars.html" class = "w3-bar-item w3-button">Meet The Scholars</a>
+			<a href="senegal.html" class = "w3-bar-item w3-button">Senegal</a>
+		</div>
+	</div>
+	<a href="whoweare.html" class = "23-bar-item w3-button">Who We Are</a>
+	<div class="w3-dropdown-hover">
+		<a href = "whysupportus.html" class = "w3-bar-item w3-button w3-teal">Support Us</a>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<a href="studentstories.html" class = "w3-bar-item w3-button">Student Stories</a>
+			<a href="donate.html" class = "w3-bar-item w3-button">Donate</a>
+		</div>
+	</div>
+</div>
+
+<!-- Image Slideshow and Letter -->
+<div class = "w3-panel w3-margin w3-center ">
+	<div class = "w3-container w3-half w3-margin w3-center w3-padding-16">
+		<img class = "homepics" src = "images/home_slide1.jpg" width = "100%">
+		<img class = "homepics" src = "images/home_slide2.jpg" width = "100%">
+		<img class = "homepics" src = "images/home_slide3.jpg" width = "100%">
+		<img class = "homepics" src = "images/home_slide4.jpg" width = "100%">
+		<img class = "homepics" src = "images/home_slide5.jpg" width = "100%">
+		<img class = "homepics" src = "images/home_slide6.jpg" width = "100%">
+		<script> w3.slideshow(".homepics", 3000); </script>
+	</div>
+	<div class = "w3-container w3-rest w3-margin w3-center w3-padding-16">
+		<h2>Letter from Babacar</h2>
+		<p class = "w3-medium w3-padding">We all encompass so many causes to embrace and identities to claim. There are times we find ourselves torn in between identities that are privileged and underprivileged, a victim and a perpetrator. Am I a man in this patriarchal society, a griot in Senegal, or a black man in this global society? I tell my students on Bridge Year, there are at least four answers to any question. And there are many identities in all of us humans. I am a father, a brother, a friend, a husband, a host, a guest, a threat, an ally. I embrace this complexity that forms me, a human being. . .</p>
+		<button onclick="document.getElementById('letter').style.display='block'" class="w3-button w3-teal">Read More</button>
+
+	</div>
+<!-- Letter popup -->
+	<div id="letter" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('letter').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <h2>Letter from Babacar</h2>
+      </header>
+      <div class="w3-container">
+        <p class = "w3-left-align">We all encompass so many causes to embrace and identities to claim. There are times we find ourselves torn in between identities that are privileged and underprivileged, a victim and a perpetrator. Am I a man in this patriarchal society, a griot in Senegal, or a black man in this global society? I tell my students on Bridge Year, there are at least four answers to any question. And there are many identities in all of us humans. I am a father, a brother, a friend, a husband, a host, a guest, a threat, an ally. I embrace this complexity that forms me, a human being. <br><br> When I was offered my first official position as a teacher in a village, Ndioukhane, I cried. It was the beginning of ten years of great challenges and rewards, and of what has become twenty years as an educator in three different institutions. I entered my first teaching position the same way many recent university graduates did at the time: afraid that the right to education was being endangered and denied due to social and economic disadvantage. And determined to use my new influence to break down the barriers between my students and knowledge that I hoped would empower them. <br><br> Ten years later, when I interviewed to be an instructor at a flight school in Dakar, knowledge was not what my interviewers asked me about. Yes, my English was important, but what made the difference in my employment was my teamwork skills, and how well I could work under pressure. And I began to question, where had these skills come from? How do I teach them to my students? Not from a chalkboard, or the memorization of information.<br><br>My students in Bridge Year gain these skills through experiential learning. They travel, bake cakes, plan their own learning, sew dresses, lead soccer teams, follow their interests, and speak to people different from themselves. To see them become more capable and fully formed people is meaningful to me, but reminds me that I have an obligation to give their homestay siblings and community members in Yoff, Dakar the same opportunities. I am there whenever my Bridge Year students need me, and have been for eight years. I made the time to do so by turning down chances to play a bigger role in empowering the students who live in my own neighborhood. <br><br>I am coming to you because of my deep faith in the good achieved by humans coming together. The tasks at hand are too big for any one of us to achieve alone: we need the beauty and complexity of our diversity. We have to come together across identities, borders, prejudices, emotions, and histories to exercise compassion responsibly.  Bridge Year is impactful because it goes deeper than being purely transactional. Now that it is impossible for new students to participate and the transactions have ceased, what we have left are human connections and commitments to equity and diversity.<br><br>Let us support the community that has welcomed Bridge Year students by giving them a chance to discover their own community in ways only their Bridge Year siblings and friends have had the resources to. It has been a proud moment seeing my Bridge Year students embracing this goal, and I hope you do as well. And I hope that you are willing to come not only because you are both a conscious giver and receiver, but in recognizing that you are part of the problem and solution.<br><br><br>Babacar Mbaye
+
+      </div>
+      <footer class="w3-container w3-teal">
+        <p></p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<!-- Mission Statement -->
+<div class = "w3-panel w3-margin w3-center w3-padding-16 w3-teal">
+<h2>Our Mission</h2>
+<p class = "w3-medium">Nu Jange Ci: Intercultural Learning Mediation is an experiential-learning program for Senegalese youth in Yoff, Dakar run by Babacar Mbaye, a teacher for over twenty years at three different institutions, across the globe and across Senegal. The program is intended to empower students to “come together across identities, borders, prejudices, emotions, and histories to exercise compassion responsibly.”
+</p>
+</div>
+
+<!-- Team and program slide deck -->
+<div class = "w3-row w3-margin w3-center ">
+	<!-- meet the team slide -->
+	<div class = "w3-container w3-third w3-margin w3-center w3-padding-16">
+		<div class="w3-content w3-display-container">
+ 		<img class="mySlides" src="images/meet_slide1.jpg" style="width:100%">
+ 	  <img class="mySlides" src="images/meet_slide2.jpg" style="width:100%">
+	  <img class="mySlides" src="images/meet_slide3.jpg" style="width:100%">
+  	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  	<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+		</script>
+		
+	</div>
+	<div class = "w3-container w3-quarter w3-margin w3-padding-16">
+		<div class = "w3-row">
+		<p class = "w3-xlarge">Meet the Team!</p>
+		<div class = "w3-row ">
+		<a class="w3-button w3-teal w3-margin " href="meetthescholars.html">Scholars</a>
+		<a class="w3-button w3-teal w3-margin " href="whoweare.html">Instructors</a>
+		</div>
+		</div>
+		<p class = "w3-large">See how our mission comes to life!</p>
+		<div class = "w3-row">
+		<a class="w3-button w3-teal w3-margin " href="whatwedo.html">What We Do</a>
+		</div>
+	</div>
+
+	<!-- program components slide -->
+	<div class = "w3-container w3-rest w3-margin w3-center w3-padding-16">
+		<div class="w3-content w3-display-container">
+ 		<img class="mySlides2" src="images/miss_slide1.jpg" style="width:100%">
+ 	  <img class="mySlides2" src="images/miss_slide2.jpg" style="width:100%">
+	  <img class="mySlides2" src="images/miss_slide3.jpg" style="width:100%">
+  	<button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+  	<button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+		</div>
+		<script>
+var slideIndex2 = 1;
+showDivs2(slideIndex2);
+
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex2-1].style.display = "block";  
+}
+		</script>
+</div>
+
+	
+
+
+
+
+<!-- Program slide deck -->
+
+</body>
+</html>
